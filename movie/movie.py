@@ -10,9 +10,9 @@ class Movie():
     def __init__(self, title, storyline, poster, trailer):
         self.title = title
         self.storyline = storyline
-        self.poster = poster
-        self.trailer = trailer
+        self.poster_image_url = poster
+        self.trailer_youtube_url = trailer
 
     def show_trailer(self):
-        wb.open(self.trailer)
+        wb.open(self.trailer_youtube_url)
 
