@@ -7,6 +7,7 @@ import webbrowser as wb
 
 
 class Movie():
+    '''A class about movie factory.'''
     def __init__(self, title, storyline, poster, trailer):
         self.title = title
         self.storyline = storyline

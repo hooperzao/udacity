@@ -25,5 +25,8 @@ cars = movie.Movie('Cars 3', 'An automation movie produced by Walter Disney',
                      'https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike180%2C5%2C5%2C180%2C60/sign=a418f3fe2c9759ee5e5d6899d3922873/023b5bb5c9ea15ce9a3177fabc003af33b87b262.jpg',
                      'http://v.youku.com/v_show/id_XMTgzMDA4ODgyMA==.html?spm=a2h1n.8261147.around_2.5~5~5~1!2~3~A')
 movies = [guardians, your_name, spider_man, wolf_warrior, mif, cars]
-ft.open_movies_page(movies)
+#ft.open_movies_page(movies)
+print (movie.Movie.__doc__)
+print (movie.Movie.__name__)
+print (movie.Movie.__module__)
 
