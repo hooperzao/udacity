@@ -74,5 +74,7 @@ planet_of_the_apes = md.Movie(
     'http://img5.mtime.cn/pi/2017/03/31/145152.18675846_1000X1000.jpg',
     'http://static1.mtime.cn/static/flash/outplayer.swf?vid=67010'
 )
+# Push all movies into a list.
 movies = [dunkirk, valerian, manchester, cars3, spider_man, planet_of_the_apes]
+# Use fresh_tomatoes to render the trailer page.
 ft.open_movies_page(movies)
